@@ -1,0 +1,33 @@
+{
+  "name": "baton-deploy-git",
+  "version": "0.0.0",
+  "description": "Git-based deployment procedure for Baton",
+  "keywords": ["baton", "git"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/baton-deploy-git.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/baton-deploy-git/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "should": "1.x.x"
+  },
+  "engines": { "node": ">= 0.6.0" },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require should"
+  }
+}
